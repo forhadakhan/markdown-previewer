@@ -1,11 +1,15 @@
 import React from 'react';
+// import MarkdownPreviewer from './components/MarkdownPreviewer';
+import MainComponent from './components/MainComponent';
 import './index.css';
 
 
-export default function App() {
-    return (
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    )
-  }
+const App = () => {
+  return (
+    <div className='bg-gray-200'>
+      <MainComponent />
+    </div>
+  );
+};
+
+export default App;
