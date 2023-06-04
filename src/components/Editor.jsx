@@ -1,8 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaExpand, FaCompress, FaTrash } from 'react-icons/fa';
+import InitialMarkdown from "./InitialMarkdown"; 
 
 const Editor = ({ onChange, value }) => {
-  const [isFullScreen, setIsFullScreen] = useState(false);
+  const [isFullScreen, setIsFullScreen] = useState(false); 
+
+  useEffect(() => {
+    const initialValue = InitialMarkdown;
+    onChange({ target: { value: initialValue } });
+
+    // Cleanup function (optional)
+    return () => {
+      console.log('Cleanup function');
+      // Code to run when the component is unmounted or reloaded
+    };
+  }, []); // Empty dependency array
 
   const handleToggleFullScreen = () => {
     setIsFullScreen(!isFullScreen);
