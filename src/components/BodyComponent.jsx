@@ -10,11 +10,11 @@ const BodyComponent = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row bg-white border rounded-2xl mb-4 h-screen">
+    <div className="bg-gray-200 flex flex-col md:flex-row border rounded-t-3xl p-4 h-screen ">
       <div className="md:w-full m-2 border-left">
         <Editor onChange={handleEditorChange} value={markdown} />
       </div>
-      <div className="md:w-full md:ml-4 m-2">
+      <div className="bg-gray-200 md:w-full md:ml-4 m-2 ">
         <Previewer markdown={markdown} />
       </div>
     </div>

@@ -5,11 +5,11 @@ import './index.css';
 
 
 const App = () => {
-  return (
-    <div className='bg-gray-200'>
-      <MainComponent />
-    </div>
-  );
+    return (
+        <div className=''>
+            <MainComponent />
+        </div>
+    );
 };
 
 export default App;
