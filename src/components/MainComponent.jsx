@@ -19,7 +19,11 @@ const MainComponent = () => {
             <div id="footer" className="pt-4 bg-gray-200">
                 <div className='bg-white border rounded-t-3xl text-center text-gray-500'>
                     <p className=''>A simple markdown previewer.</p>
-                    <p className=''>Code by <a href='#'>@forhadakhan</a></p>
+                    <p className=''>Code by &nbsp;
+                        <a href='https://github.com/forhadakhan/'>@forhadakhan</a>  &nbsp;
+                        [<a  href='https://github.com/forhadakhan/markdown-previewer'>repo</a>] 
+                    </p>
+                    <p><a href='https://www.markdownguide.org/cheat-sheet#overview'>Markdown Cheatsheet</a></p>
                 </div>
             </div>
         </div>
