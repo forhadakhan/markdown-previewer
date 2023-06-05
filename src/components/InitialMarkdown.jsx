@@ -40,6 +40,6 @@ And if you want to get really crazy, even tables:
 1. Use just 1s if you want!
 1. And last but not least, let's not forget embedded images:
 
-![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)`;
+![markdown Logo](https://img.crx4chrome.com/b6/51/1e/ehnpcjdjgnnjibdeacicbkhgagkdjgfn-logo.png)`;
 
 export default InitialMarkdown;
